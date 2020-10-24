@@ -17,12 +17,21 @@ more = input("Do you have an email address to enter (y/n)? ")
 while more == "y":
     email = input("Enter the address: ")
     addresses.append(email)
-#Asks user to input another address
-    more = input("Do you have another address(y/n)? ")
-    while more != "y":
-        if more == "n":
-            break
-        else:
-            more = input("Please enter a y or n: ")
 #prints email addresses    
+
+{
+  "items": [
+    {
+      "id": "Y2lzY29zcGFyazovL3VzL1JPT00vZWQ1MGQxZTAtMTUxNy0xMWViLWFlNmUtMjM0MmY0N2FmMDdk",
+      "title": "SDN Postman Room",
+      "type": "group",
+      "isLocked": false,
+      "lastActivity": "2020-10-23T12:38:19.643Z",
+      "creatorId": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS9jZTY4MDM2Mi02NGM1LTRhNmYtYWFmOS1hZTM4YmY2MWYwYWM",
+      "created": "2020-10-23T10:10:07.486Z",
+      "ownerId": "Y2lzY29zcGFyazovL3VzL09SR0FOSVpBVElPTi83ZmUxNWZlZC1jNjdiLTRkZGMtYjI5Yy0zOTMzOGI0ZDMwOWU"
+    }
+  ]
+}
+
 print(addresses)
